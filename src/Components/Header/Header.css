@@ -1,0 +1,199 @@
+.Header {
+    background-image:
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.169), rgba(0, 0, 0, 0.232)), url('/public/sources/bg-3.webp');
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.HeaderInfos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.HeaderInfos>div {
+    width: 50%;
+    /* color: rgb(0, 0, 0); */
+    color: var(--blue);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.HeaderInfos>div:last-child>h1 {
+    font-size: 78px;
+    /* text-shadow: 5px 5px 6px rgba(12, 24, 33, 0.89); */
+}
+
+.HeaderInfos>div:last-child>span {
+    /* text-shadow: 5px 5px 6px rgba(12, 24, 33, 0.89); */
+    font-size: 38px;
+    margin-bottom: 50px;
+    display: block;
+}
+
+.HeaderInfos>div:last-child>h3 {
+    font-size: 28px;
+}
+
+.HeaderInfos>div:last-child>button {
+    font-size: 20px;
+    border: 0;
+    background-color: var(--blue);
+    padding: 15px 18px;
+    color: white;
+    border-radius: 12px;
+    margin-top: 20px;
+    align-self: flex-start;
+    transition: all .4s;
+}
+
+.HeaderInfos>div:last-child>button:hover {
+    background-color: rgb(71, 71, 255);
+}
+
+@media only screen and (max-width: 1000px) {
+    .Header {
+        background-size: cover;
+    }
+
+    .HeaderInfos>div:first-child {
+        width: 45%;
+    }
+
+    .HeaderInfos>div:last-child {
+        width: 55%;
+    }
+
+    .HeaderInfos>div:last-child>h1 {
+        font-size: 68px;
+    }
+
+    .HeaderInfos>div:last-child>span {
+        font-size: 28px;
+    }
+
+    .HeaderInfos>div:last-child>h3 {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 865px) {
+    .Header {
+        background-position-x: -100px;
+        background-size: 180% 100%;
+    }
+
+    .HeaderInfos>div:first-child {
+        width: 35%;
+    }
+    
+    .HeaderInfos>div:last-child {
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width: 685px) {
+    .Header {
+        background-position-x: -100px;
+        background-size: 205% 100%;
+    }
+
+    .HeaderInfos>div:first-child {
+        width: 36%;
+    }
+
+    .HeaderInfos>div:last-child {
+        width: 64%;
+    }
+
+    .HeaderInfos>div:last-child>h1 {
+        font-size: 55px;
+    }
+
+    .HeaderInfos>div:last-child>span {
+        font-size: 24px;
+    }
+
+    .HeaderInfos>div:last-child>h3 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .HeaderInfos>div:first-child {
+        display: none;
+    }
+
+    .HeaderInfos>div:last-child {
+        width: 70%;
+    }
+
+    .HeaderInfos>div:last-child>h1 {
+        font-size: 55px;
+        font-weight: bolder;
+    }
+
+    .HeaderInfos>div:last-child>span {
+        font-size: 24px;
+    }
+
+    .HeaderInfos>div:last-child>h3 {
+        font-size: 20px;
+    }
+
+    .Header {
+        background-image:
+            linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/public/sources/bg-3.webp');
+        background-position-x: 00px;
+        background-size: 200% 100%;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .Header {
+        background-position-x: -50px;
+        background-size: 250% 100%;
+    }
+}
+@media only screen and (max-width: 482px) {
+    .Header {
+        background-position-x: -50px;
+        background-size: 250% 60%;
+        height: 60vh;
+    }
+    .HeaderInfos>div:last-child {
+        width: 90%;
+        text-align: center;
+    }
+    .HeaderInfos>div:last-child>h1 {
+        font-size: 50px;
+        font-weight: bolder;
+    }
+    
+    .HeaderInfos>div:last-child>span {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    
+    .HeaderInfos>div:last-child>h3 {
+        font-weight: bolder;
+        font-size: 20px;
+    }
+    .HeaderInfos>div:last-child>button {
+
+        align-self: center;
+    }
+}
+@media only screen and (max-width: 391px) {
+    /* .Header {
+        background-position-x: -50px;
+        background-size: 300% 100%;
+        height: 620px;
+    } */
+}   

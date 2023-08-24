@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lalezar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.Container {
+  width: 1100px;
+  display: flex;
+}
+
+.LanModalContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 30px;
+}
+
+.LanModalContainer>button {
+  background-color: rgb(0, 106, 255);
+  padding: 10px 13px;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: 0;
+  color: white;
+  font-size: 20px;
+}
+
+.LanModalItem {
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all .4s;
+}
+
+.LanModalItem:hover {
+  background-color: rgb(220, 220, 220);
+}
+
+.LanModalItem>img {
+  width: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.css-getw88:focus {
+  outline: 0;
+}
+
+.ContactModalContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 20px;
+}
+.ContactModalContainer>button{
+  border: 0;
+  margin-top: 15px;
+  padding: 10px 13px;
+  color: white;
+  background-color: rgb(0, 106, 255);
+  border-radius: 10px;
+}
+.ContactModalItem{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+}
+.ContactModalItem>svg{
+  margin-right: 10px;
+}
+.ContactModalItem>a{
+  text-decoration: none;
+  color: black;
+}
+
+
+@media only screen and (max-width: 1150px) {
+  .Container {
+    width: 950px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .Container {
+    width: 800px;
+  }
+}
+
+@media only screen and (max-width: 865px) {
+  .Container {
+    width: 640px;
+  }
+}
+
+@media only screen and (max-width: 685px) {
+  .Container {
+    width: 520px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .Container {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .Container {
+    width: 90%;
+  }
+}

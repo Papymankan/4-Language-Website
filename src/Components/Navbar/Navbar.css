@@ -1,0 +1,50 @@
+.NavbarBrand{
+    font-size: 35px !important;
+    font-family: 'Dancing Script', cursive;
+    
+}
+.navbarContainer{
+    display: flex;
+    justify-content: center !important;
+    position: fixed !important;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all .6s;
+    z-index: 99;
+}
+.active{
+    background-color: var(--blue);
+}
+#navbarActionBox{
+    display: flex;
+    justify-content: end !important;
+    width: 100%;
+}
+
+#navbarActionBox>button{
+    border: 0;
+    background-color: var(--blue);
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    transition: all .4s;
+}
+#navbarActionBox>button:hover{
+    background-color: rgb(0, 68, 255);
+}
+#navbarActionBox>button>span{
+    margin-left: 6px;
+}
+
+@media only screen and (max-width: 380px){
+    #navbarActionBox>button{
+        margin-left: 2px;
+    }
+    .NavbarBrand{
+        font-size: 28px !important;
+    }
+  }
