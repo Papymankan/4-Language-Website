@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/4-Language-Website/static/css/main.2353aaea.css",
+    "main.js": "/4-Language-Website/static/js/main.27ed6357.js",
+    "static/media/bg-3.webp": "/4-Language-Website/static/media/bg-3.99ee7b76c1084444e7a5.webp",
+    "index.html": "/4-Language-Website/index.html",
+    "main.2353aaea.css.map": "/4-Language-Website/static/css/main.2353aaea.css.map",
+    "main.27ed6357.js.map": "/4-Language-Website/static/js/main.27ed6357.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2353aaea.css",
+    "static/js/main.27ed6357.js"
+  ]
+}
